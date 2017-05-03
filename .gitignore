@@ -115,3 +115,4 @@ Temporary Items
 
 .gitignore
 .idea/
+/.env
