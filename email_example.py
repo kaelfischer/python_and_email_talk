@@ -46,7 +46,7 @@ def send_mail_with_smtp_authetication(send_from, send_to, subject, body, files=N
     Assemble a multipart mime message and send it to a stmp server using SMTP authentication
 
     :param send_from: email address
-    :param send_to:   iterable of email addresses
+    :param send_to:   iterable of email addresses (may have to be a list)
     :param subject:   text for subject line
     :param body:      text for the message body
     :param files:     list of paths to the files that will be included as attachments
